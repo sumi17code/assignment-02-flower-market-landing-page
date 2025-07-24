@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Market Landing Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-white">
+<!-- this is header section  -->
+    <header>
+<!-- this is nav section  -->
+        <nav class="lg:flex justify-between items-center mt-[30px] mx-[150px] sm:flex hidden">
+            <div>
+                <img src="Images/logo.png" alt="logo" class="w-[135px] h-[82px]">
+            </div>
+            <div class="flex justify-between items-center gap-8">
+                <a href="#" class="sm:flex hidden">Home</a>
+                <a href="#" class="text-gray-400 sm:flex hidden">Shop</a>
+                <a href="#" class="text-gray-400 sm:flex hidden">About us</a>
+                <div class="flex  gap-1.5">
+                    <img src="Images/shopping-cart.png" alt="cart image">
+                    <h5>Cart ($56)</h5>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- for mobile nav  -->
+        <nav class="flex justify-between items-center mt-[13px] mx-[16px] lg:hidden">
+            <div>
+                <img src="Images/logo.png" alt="logo" class="h-[63px] w-[38px]">
+            </div>
+            
+            <div class="flex gap-[15px]">
+                <img src="Images/shopping-cart.png" alt="cart image">
+                <h5>Cart ($56)</h5>
+            </div>
+        </nav>
+<!-- here end nav section  -->
+
+<!-- this is banner section  -->
+
+        <section class="lg:flex mt-[120px] mx-[150px] sm:flex hidden">
+            <div class="content-end">
+                <h1 class="font-[noto-serif] font-bold text-6xl">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
+                <p class="font-[Inter] font-normal text-[#000000] opacity-50 text-[22px]">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. </p>
+            </div>
+            <img src="Images/hero-flower.png" alt="hero flower" class="w-[550px] h-[355px]">
+        </section>
+
+
+        <!-- this is for mobile responsive  -->
+
+        <section class="sm:flex flex-col lg:hidden mt-[28px]">
+
+            <img src="Images/hero-flower.png" alt="">
+
+            <div class="mt-[28px] mx-[16px] text-left">
+                <h1 class="font-[noto-serif] font-bold text-[20px]">ALWAYS <span class="text-[#E95A08]">FRESH <br> FLOWERS</span></h1>
+                <P class="font-[Inter] font-normal text-[#000000] opacity-50 tex-[10px] mt-[13px]">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion.</P>
+            </div>
+        </section>
+<!-- here banner section end  -->
+    </header>
+
+<!-- header section end  -->
+
+<!-- here main section start  -->
+
+    <!-- plant section start  -->
+
+    <main class="mt-[80px] px-4 sm:px-8 lg:px-[150px]">
+        <div>
+            <h1 class="font-[noto-serif] font-bold text-[32px] sm:text-[40px] lg:[50px] text-center"><span class="text-[#E95A08]"> Our </span>Plants</h1>
+            <p class="font-[Inter] font-normal text-[#000000] opacity-50 tex-[16px] sm:text-[18px] lg:text-[22px] mt-[12px] text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        </div>
+
+       
+        <section class="mt-10">
+
+            <div class="grid grid-cols-2 sm:grid-cols-2 gap-x-2 lg:grid-cols-4 gap-6">
+
+                <!-- card 1  -->
+                <div class="w-full max-w-[270px] mx-2">
+                    <img src="Images/sample-flower-image.png" alt="" class="w-full rounded shadow-xl">
+                    <h3 class="font-[Inter] font-medium text-[18px] sm:text-[20px] text-center">Lily Blossom</h3>
+                    <h4 class="font-[Inter] font-bold text-[18px] sm: tex-[20px] text-center">20 USD</h4>
+                    <button class="bg-[#E95A08] hover:bg-red-400 w-full lg:w-full mt-2  py-2 text-white text-[10px] font=semibold rounded text-center">ADD TO CART</button>
+                </div>
+                <!-- card 2  -->
+                <div class="w-full max-w-[270px] mx-2">
+                    <img src="Images/sample-flower-image.png" alt="" class="w-full rounded shadow-xl">
+                    <h3 class="font-[Inter] font-medium text-[18px] sm:text-[20px] text-center">Lily Blossom</h3>
+                    <h4 class="font-[Inter] font-bold text-[18px] sm: tex-[20px] text-center">20 USD</h4>
+                    <button class="bg-[#E95A08] hover:bg-red-400 w-full lg:w-full  mt-2  py-2 text-white text-[10px] font=semibold rounded text-center">ADD TO CART</button>
+                </div>
+                <!-- card 3  -->
+                <div class="w-full max-w-[270px] mx-auto">
+                    <img src="Images/sample-flower-image.png" alt="" class="w-full rounded shadow-xl">
+                    <h3 class="font-[Inter] font-medium text-[18px] sm:text-[20px] text-center">Lily Blossom</h3>
+                    <h4 class="font-[Inter] font-bold text-[18px] sm: tex-[20px] text-center">20 USD</h4>
+                    <button class="bg-[#E95A08] hover:bg-red-400 w-full lg:w-full  mt-2  py-2 text-white text-[10px] font=semibold rounded text-center">ADD TO CART</button>
+                </div>
+                <!-- card 4  -->
+                <div class="w-full max-w-[270px] mx-auto">
+                    <img src="Images/sample-flower-image.png" alt="" class="w-full rounded shadow-xl">
+                    <h3 class="font-[Inter] font-medium text-[18px] sm:text-[20px] text-center">Lily Blossom</h3>
+                    <h4 class="font-[Inter] font-bold text-[18px] sm: tex-[20px] text-center">20 USD</h4>
+                    <button class="bg-[#E95A08] hover:bg-red-400 w-full lg:w-full  mt-2 py-2 text-white text-[10px] font=semibold rounded text-center">ADD TO CART</button>
+                </div>
+                <!-- card 5  -->
+                <div class="w-full max-w-[270px] mx-auto">
+                    <img src="Images/sample-flower-image.png" alt="" class="w-full rounded shadow-xl">
+                    <h3 class="font-[Inter] font-medium text-[18px] sm:text-[20px] text-center">Lily Blossom</h3>
+                    <h4 class="font-[Inter] font-bold text-[18px] sm: tex-[20px] text-center">20 USD</h4>
+                    <button class="bg-[#E95A08] hover:bg-red-400 w-full lg:w-full  mt-2 py-2 text-white text-[10px] font=semibold rounded text-center">ADD TO CART</button>
+                </div>
+                <!-- card 6  -->
+                <div class="w-full max-w-[270px] mx-auto">
+                    <img src="Images/sample-flower-image.png" alt="" class="w-full rounded shadow-xl">
+                    <h3 class="font-[Inter] font-medium text-[18px] sm:text-[20px] text-center">Lily Blossom</h3>
+                    <h4 class="font-[Inter] font-bold text-[18px] sm: tex-[20px] text-center">20 USD</h4>
+                    <button class="bg-[#E95A08] hover:bg-red-400 w-full lg:w-full  mt-2 py-2 text-white text-[10px] font=semibold rounded text-center">ADD TO CART</button>
+                </div>
+                <!-- card 7  -->
+                <div class="w-full max-w-[270px] mx-auto">
+                    <img src="Images/sample-flower-image.png" alt="" class="w-full rounded shadow-xl">
+                    <h3 class="font-[Inter] font-medium text-[18px] sm:text-[20px] text-center">Lily Blossom</h3>
+                    <h4 class="font-[Inter] font-bold text-[18px] sm: tex-[20px] text-center">20 USD</h4>
+                    <button class="bg-[#E95A08] hover:bg-red-400 w-full lg:w-full  mt-2  py-2 text-white text-[10px] font=semibold rounded text-center">ADD TO CART</button>
+                </div>
+                <!-- card 8  -->
+                <div class="w-full max-w-[270px] mx-auto">
+                    <img src="Images/sample-flower-image.png" alt="" class="w-full rounded shadow-xl">
+                    <h3 class="font-[Inter] font-medium text-[18px] sm:text-[20px] text-center">Lily Blossom</h3>
+                    <h4 class="font-[Inter] font-bold text-[18px] sm: tex-[20px] text-center">20 USD</h4>
+                    <button class="bg-[#E95A08] hover:bg-red-400 w-full lg:w-full  mt-2  py-2 text-white text-[10px] font=semibold rounded text-center">ADD TO CART</button>
+                </div>
+       
+            </div>
+        </section>
+        <!-- card section end  -->
+
+        <!-- plants lover section  -->
+        
+        <section>
+
+            
+        </section>
+        
+    </main>
+</body>
+</html>
